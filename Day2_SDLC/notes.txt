@@ -1,0 +1,40 @@
+Standard steps of Sdlc 
+
+BASIC SOFTWARE DEVELOPMENT LIFECYCLE 
+Planning -> defining -> designing -> building -> testing -> deploy 
+(PDDBTD)
+
+->In planning 
+gather all requirements and planning. 
+Check all theh information of the project you're thinking 
+
+->Defining 
+After planning documenatiation , Software requirement specification documenatiation
+
+
+->Desiging 
+HLD-> Basic architecture 
+LLD -> what language we will use 
+
+--------------------From Here Devops basically started ----------------------
+
+Building 
+->Developing the application 
+-> They will write code sent it to github/git.
+
+
+Testing 
+-> Quality assurance Q/a engineers will test the code now ..
+
+
+Deployment  
+-> check the application on production server where the customer will consume . 
+
+
+Devops fast the process and make sure all the three setps get done with automation 
+and fasten the process 
+
+
+In today generation companies are using Agile Methodolgy 
+
+
