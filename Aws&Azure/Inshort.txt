@@ -1,0 +1,25 @@
+Automation in DevOps:
+Using scripts and tools to automatically create, configure, 
+and manage infrastructure.
+
+Why Important:
+Faster deployments
+Fewer human errors
+Easy scaling
+Consistency across environments
+Saves time and cost
+
+How AWS Automation Works:
+Script → AWS API → Authentication → Authorization → Validation 
+→ Resource Created
+
+
+
+Ways to Automate AWS:
+AWS CLI
+AWS SDK (API calls)
+CloudFormation
+AWS CDK
+Terraform (best for multi-cloud)
+Terraform Advantage:
+Supports hybrid and multi-cloud environment

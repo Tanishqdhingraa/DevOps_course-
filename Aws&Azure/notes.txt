@@ -1,0 +1,62 @@
+🚀 Importance of Automation in DevOps
+
+👉 Automation means using scripts and tools to perform tasks automatically 
+instead of doing them manually.
+In DevOps, automation helps teams:
+Deploy faster
+Reduce human errors
+Scale easily
+Save time and cost
+Keep environments consistent
+
+-------------------------------------------------------------------
+Without automation, engineers would have to manually create servers,
+configure networks, install software — which is slow and error-prone.
+
+Example: Automation in AWS (EC2)
+
+Instead of going to AWS Console and clicking buttons:
+👉 A developer can write a script
+👉 The script makes a request to AWS EC2 API
+👉 AWS checks if the request is valid
+👉 If approved → A new EC2 instance is created automatically
+So automation = talking directly to AWS through code
+
+---------------------------------------------------------------
+What Happens When Script Calls AWS API?
+When your script sends a request to AWS:
+Authentication → AWS checks Who are you?
+(Access Key / IAM Role)
+Authorization → AWS checks Are you allowed to do this?
+(IAM Permissions)
+Validation → AWS checks if the request format is correct
+✅ If everything is correct → AWS creates the resource (like EC2)
+
+-----------------------------------------------------------------------
+What is a Script in DevOps?
+👉 A script is a set of instructions written in code to automate tasks.
+
+
+----------------------------------------------------------------------
+You can automate AWS using:
+
+1️⃣ AWS CLI
+Command line tool to interact with AWS
+Example:
+aws ec2 run-instances ...
+
+2️⃣ AWS SDK / API
+Use programming languages like Python, Java, Node.js to call AWS APIs
+
+3️⃣ AWS CloudFormation (CFT)
+Infrastructure as Code (IaC) tool
+You write a template (YAML/JSON) to define infrastructure
+
+4️⃣ AWS CDK
+Write infrastructure using programming languages (Python, TS, Java) 
+instead of YAML
+
+5️⃣ Terraform (Open Source)
+Most popular Infrastructure as Code tool
+Works with AWS + Azure + GCP + many more
+
