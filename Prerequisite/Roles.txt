@@ -1,0 +1,26 @@
+Business Analyst 
+-> Interacts with customer and takes feedbacks 
+-> also write the Brd Document on the basis of requiemnt 
+
+Product Mangaer
+-> Interacts with Business Analyst
+-> It priroritize with BRD document 
+
+Product 0wner 
+-> they create Epic 
+-> Communicate with Product Mangaer.
+
+-------------------Technical starts ---------------------
+Software Architect 
+-> They will write the HLD and LLD
+
+Developers 
+-> They will get HLD AND LLD 
+-> Write the requirements (Docker , kubernates )
+This is done by DevOps engineer 
+----------------------------------------------------------------
+
+JIRA 
+installation and Setup 
+Tasks 
+ 

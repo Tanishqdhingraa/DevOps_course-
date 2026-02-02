@@ -1,0 +1,24 @@
+Server:
+A server is a computer that provides services or resources to
+ other computers (clients) over a network.
+
+Virtualization:
+Virtualization is the technology that allows multiple virtual machines to run on a 
+single physical server.
+
+Hypervisor:
+A hypervisor is software that creates and manages virtual machines by dividing hardware resources.
+
+
+Why Virtualization is Important in DevOps:
+Better hardware utilization
+Faster environment setup
+Easy scaling
+Cost reduction
+Isolated environments for Dev/Test/Prod
+Quick backup and recovery
+
+
+Popular Hypervisors:
+VMware ESXi, Hyper-V, KVM, VirtualBox
+
