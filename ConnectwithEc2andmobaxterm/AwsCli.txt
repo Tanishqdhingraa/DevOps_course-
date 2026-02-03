@@ -1,0 +1,85 @@
+✅ Step 1: Install AWS CLI
+
+🔹 Windows
+1. Download AWS CLI from official AWS site
+2. Run installer
+3. Open **Command Prompt / PowerShell**
+4. Check installation:
+
+aws --version
+If you see a version → Installed successfully ✅
+
+-----------------------------------------------
+
+ ✅ Step 2: Create IAM User for CLI Access
+
+⚠ Never use root account for CLI
+1. Go to **AWS Console → IAM**
+2. Click **Users → Create user**
+3. Enter username (example: `devops-cli-user`)
+4. Select **Access key – Programmatic access**
+5. Click **Next**
+
+ Permissions:
+* Attach policy directly
+* Choose **AdministratorAccess** (for learning)
+6. Create user
+7. **Download or copy:**
+
+   * Access Key ID
+   * Secret Access Key
+
+👉 You will not see Secret Key again!
+
+
+-----------------------------------------------
+✅ Step 3: Configure AWS CLI
+
+In terminal run:
+
+bash
+aws configure
+
+You’ll be asked:
+
+| Question              | What to Enter              |
+| --------------------- | -------------------------- |
+| AWS Access Key ID     | Paste from IAM             |
+| AWS Secret Access Key | Paste from IAM             |
+| Default region        | e.g. `ap-south-1` (Mumbai) |
+| Default output format | `json`                     |
+
+Now CLI is connected to your AWS account 🎉
+
+----------------------------------------------- 
+✅ Step 4: Test Connection
+
+Run a simple command:
+
+bash
+aws ec2 describe-instances
+
+If it shows JSON output → CLI is successfully connected ✅
+
+-----------------------------------------------
+
+
+# 🔁 What Happens Behind the Scenes?
+
+AWS CLI → Sends request → AWS API →
+Checks **Authentication** (Access key)
+Checks **Authorization** (IAM permissions)
+If allowed → Returns response
+
+
+
+🧠 Final Short Revision
+
+1. Install AWS CLI
+2. Create IAM user with programmatic access
+3. Get Access Key & Secret Key
+4. Run `aws configure`
+5. Test with AWS command
+
+
+

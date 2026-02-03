@@ -1,0 +1,60 @@
+🖥 Connect EC2 Instance to MobaXterm (SSH)
+
+
+✅ Step 1: Launch EC2 Instance
+While creating EC2:
+Choose Amazon Linux / Ubuntu
+Select or create a Key Pair (.pem file) → Download it
+In Security Group, allow:
+SSH (Port 22)
+Source: 0.0.0.0/0 (for learning; not safe for production)
+
+
+✅ Step 2: Get EC2 Public IP
+After instance is running:
+Go to EC2 Dashboard → Instances
+Copy Public IPv4 address
+Example: 3.110.25.67
+
+
+✅ Step 3: Open MobaXterm
+Open MobaXterm
+Click Session
+Choose SSH
+
+
+✅ Step 4: Enter Connection Details
+
+Fill these:
+Field	What to Enter
+Remote host	EC2 Public IP
+Specify username	ec2-user (Amazon Linux) OR ubuntu (Ubuntu AMI)
+Port	22
+
+
+✅ Step 5: Add Your Key Pair (.pem)
+In same window → Go to Advanced SSH Settings
+Tick Use private key
+Browse and select your .pem file
+
+
+✅ Step 6: Click OK / Connect
+First time:
+It will ask to accept fingerprint → Click Accept
+
+
+Terminal will open → You are now inside your EC2 server 🎉
+
+==========================================================
+Quick Revision of Lecture:-                             
+Need EC2  
+→ Create Key Pair (PEM)  
+→ Launch EC2 Manually via AWS Console  
+→ Connect via UI (EC2 Connect) / Terminal (SSH with PEM)  
+→ Permission Denied? → chmod 600 key.pem  
+
+→ Need to Scale (10s/100s EC2)?  
+→ Use AWS CLI (aws configure + run-instances)  
+→ Still Repetitive?  
+→ Automate using Code → Boto3 (Python) / CloudFormation (YAML Templates)  
+→ Full Infra as Code & Scalable Deploymen
