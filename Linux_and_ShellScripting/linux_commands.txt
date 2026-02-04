@@ -1,0 +1,43 @@
+
+1.  ls — List files ls ls -l # detailed list ls -a # show hidden files
+
+2.  cd — Change directory cd /home cd .. cd project
+
+3.  pwd — Print working directory pwd
+
+4.  mkdir — Make directory mkdir test
+
+5.  rm — Remove files/folders rm file.txt rm -r foldername # delete
+    folder
+
+6.  cp — Copy files or directories cp file1.txt file2.txt cp -r folder1
+    folder2
+
+7.  mv — Move / Rename mv file.txt /home/user/ mv old.txt new.txt
+
+8.  touch — Create empty file touch file.txt
+
+9.  cat — View file content cat file.txt
+
+10. echo — Print text echo “Hello” echo “Hello” > file.txt
+
+
+11. ls -ltr - Information about d means directories 
+            - owner 
+            - all properties 
+
+12. vi filename - make filename and write it 
+                - click on esc 
+                -click on i (insertion)
+                -click esc  
+                -:wq!
+                - use cat to print the file              
+
+13. free -g  - Health of laptop 
+
+14. nrpoc    - number of cpu 
+
+15. df -h    - disk size 
+
+16. top      - everything about memories 
+

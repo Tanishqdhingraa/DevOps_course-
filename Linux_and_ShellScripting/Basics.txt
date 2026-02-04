@@ -1,0 +1,76 @@
+
+Why Do We Use Linux Over Windows in DevOps?
+
+Linux is the most used operating system in servers, cloud, and 
+DevOps environments.
+✅ 1. Open Source (Free)
+✅ 2. Better Performance
+✅ 3. More Secure
+✅ 4. Best for Automation & Scripting
+✅ 5. Most Cloud & DevOps Tools Are Linux-Friendly
+✅ 6. Stability (Runs Without Restart)
+✅ 7. Full Control (Command Line Power)
+✅ 8. Used Everywhere in Cloud
+
+---------------------------------------------------------------------------
+🐧 Basic Architecture of Linux Kernel
+ 
+🧱 Main Components of Linux Kernel
+
+Think of the kernel as the bridge between Hardware and Applications
+
+User Applications
+        ↓
+   System Calls
+        ↓
+  -----------------
+  |   LINUX KERNEL |
+  -----------------
+   |   |   |   |   |
+ Process Memory File Device
+ Mgmt   Mgmt  System Drivers
+        |
+     Network
+        |
+     Hardware
+
+
+🔁 Simple Flow
+Application → System Call → Kernel → Hardware
+Hardware Response → Kernel → Application
+---------------------------------------------------------------------------
+🐚 What is a Shell?
+
+👉 A Shell is a program that acts as a bridge between the user and
+ the Linux operating system.
+
+It allows users to:
+Run commands
+Execute programs
+Control the system
+
+💡 You type commands → Shell understands → Kernel executes them
+
+Examples of Shells:
+Bash (most common)
+Sh
+Ksh
+Zsh
+
+---------------------------------------------------------------------------
+
+📜 What is Shell Scripting?
+
+👉 Shell scripting means writing a file that contains multiple shell commands 
+to be executed automatically.
+Instead of typing commands one by one, you put them into a script.
+A shell script is just a text file with .sh extension
+---------------------------------------------------------------------------
+
+Why Shell Scripting is Important in DevOps?
+
+Automates repetitive tasks
+Saves time
+Reduces manual errors
+Used in deployments, backups, monitoring
+---------------------------------------------------------------------------

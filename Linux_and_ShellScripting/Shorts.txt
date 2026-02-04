@@ -1,0 +1,33 @@
+📌 Final Short Revision Notes
+
+Why Linux in DevOps?
+
+Free & open source
+Lightweight & fast
+More secure
+Best for scripting & automation
+Supports all DevOps tools
+Very stable
+Powerful command line
+Default OS in cloud servers
+
+
+Linux Kernel Architecture includes:
+Process Management
+Memory Management
+File System
+Device Drivers
+Networking
+System Call Interface
+👉 Kernel acts as a bridge between software and hardware
+
+
+
+Shell:
+A command-line interface that lets users interact with the Linux OS.
+
+Shell Script:
+A file containing multiple shell commands that run automatically.
+
+Use in DevOps:
+Automation of system tasks and server management.
