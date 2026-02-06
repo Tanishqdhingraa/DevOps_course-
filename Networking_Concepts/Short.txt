@@ -1,0 +1,10 @@
+📌 Final Revision Notes (Ultra Short)
+
+
+IP address → unique device identifier
+IPv4 → 32-bit address, 4 octets
+Subnet → smaller network inside a big network
+Subnetting → dividing network
+CIDR → defines network size
+Public subnet → internet accessible
+Private subnet → internal use only

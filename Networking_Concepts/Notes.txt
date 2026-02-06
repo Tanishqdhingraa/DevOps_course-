@@ -1,0 +1,114 @@
+🌐 Networking Concepts for DevOps – Short Notes
+
+
+✅ What is an IP Address?
+👉 An IP address is a unique number given to a device on 
+a network to identify it and communicate with other devices.
+Example:192.168.1.10
+--------------------------------------------------------------------
+
+✅ What is IPv4?
+👉 IPv4 (Internet Protocol version 4) is the most commonly used 
+IP version.
+Size: 32 bits
+Format: 4 numbers separated by dots
+Total addresses: ~4.3 billion
+Example:172.31.40.167
+--------------------------------------------------------------------
+
+
+✅ What do the dots mean in IPv4?
+Each dot separates the IP into 4 octets.
+Example:192.168.1.5
+Octet	Value
+1st	    192
+2nd	    168
+3rd	    1
+4th	    5
+👉 Each octet is 8 bits
+👉 Each value range: 0 – 255
+--------------------------------------------------------------------
+
+
+✅ What is a Subnet?
+👉 A subnet is a small network inside a larger network.
+Subnetting = dividing one big network into multiple smaller networks.
+
+
+🎓 College Networking Example (Easy to Remember)
+Without Subnetting ❌
+One college
+One big network
+All students + staff + labs in same network
+
+Problems:
+Slow network
+Security issues
+Too much broadcast traffic
+
+
+With Subnetting ✅
+College network is divided like this:
+Department	Subnet
+Computer Science	192.168.1.0/24
+Electronics	192.168.2.0/24
+Mechanical	192.168.3.0/24
+Administration	192.168.4.0/24
+
+👉 Each department has its own subnet
+👉 Traffic is controlled
+👉 Security is improved
+--------------------------------------------------------------------
+
+
+✅ Advantages of Subnetting
+Better network performance
+Reduced network congestion
+Improved security
+Easy management
+Efficient IP address usage
+
+--------------------------------------------------------------------
+
+✅ Types of Subnets
+🔹 Public Subnet
+Accessible from the internet
+Used for:
+Load balancers
+Web servers
+
+🔹 Private Subnet
+Not accessible from the internet
+Used for:
+Databases
+Backend servers
+
+👉 In AWS:
+EC2 in public subnet → has public IP
+EC2 in private subnet → no public IP
+
+--------------------------------------------------------------------
+
+
+✅ How CIDR Helps in Subnetting?
+👉 CIDR (Classless Inter-Domain Routing) defines:
+Network size
+Number of IPs
+Example:192.168.1.0/24
+
+
+/24 → first 24 bits are network bits
+Remaining 8 bits → host bits
+
+Total IPs = 256
+CIDR Examples (Important)
+CIDR	Total IPs
+/24	256
+/25	128
+/26	64
+/27	32
+
+👉 CIDR allows flexible subnetting
+👉 Avoids IP wastage
+👉 Very important in cloud networking
+--------------------------------------------------------------------
